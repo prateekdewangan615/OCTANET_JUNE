@@ -1,0 +1,59 @@
+/*Navigation Menu*/
+#navbar{
+    flex-direction: column;
+    width: 100%;
+}
+#navbar ul{
+    flex-direction: column;
+    width: 100%;
+}
+#navbar ul li{
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+#navbar ul li a{
+    text-align: center;
+    font-weight: 550;
+    font-size: 18px;
+}
+/*Home Section*/
+#homeintro{
+    position: relative;
+    padding: 20px;
+    font-size: 90%;
+    margin: auto;
+    top: 50px; 
+    width: 80%;
+    line-height: 30px;
+}
+.box1{
+    line-height: 20px;
+    font-size: 105%;
+}
+/*Contact Us Section*/
+.contactcont label{
+    width: 70%;
+}
+.contactcont input{
+    width: 70%;
+}
+/*Footer*/
+.foothead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    margin:20px;
+    font-size: 110%;
+}
+
+.box3 h1{
+    font-size: 160%;
+}
+.box3 img{
+    width: 80px;
+}
+.box3{
+    padding: 25px;
+}
